@@ -1,4 +1,4 @@
-![2222](Documentation/test.png)
+![2222](test.png)
 
 # MAC OPEN GL 环境搭建
 
