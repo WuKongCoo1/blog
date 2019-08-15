@@ -1,5 +1,3 @@
-![2222](test.png)
-
 # MAC OPEN GL 环境搭建
 
 ## 基础库介绍
