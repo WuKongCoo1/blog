@@ -34,11 +34,11 @@ sudo make install
 
 首先在[这里](https://www.glfw.org/download.html)下载源码，我们可以选择直接下载编译好的库，也可以下载源文件然后通过camke来自己编译，区别是如果用cmake库的话，在执行成功以后，会直接将生成的库与头文件分别添加到系统路径，也就是/usr/local/include和/usr/local/lib。这里就自己选择方式了。我在这里介绍利用make工具，自己编译的方式
 
-打开cmake 的gui工具，在source code选择下载的glfw路径，这一步需要在这个路径创建一个build目录，用于存放生成的文件。然后在browse build路径选择我们刚才创建的路径，点击configure。![](Documentation/屏幕快照 2019-08-15 下午1.45.07.png)
+打开cmake 的gui工具，在source code选择下载的glfw路径，这一步需要在这个路径创建一个build目录，用于存放生成的文件。然后在browse build路径选择我们刚才创建的路径，点击configure。![](Resources/屏幕快照 2019-08-15 下午1.45.07.png)
 
 如果出现了红色的选项，继续点击configura，消除红色的为止，最后点击generate。生成成功会出现如下效果
 
-![生成成功](/Users/lineworks/Desktop/屏幕快照 2019-08-15 下午1.45.07.png)
+![生成成功](Resources/屏幕快照 2019-08-15 下午1.45.07.png)
 
 接下来从终端进入到build目录，没错就是刚才我们创建的build，输入如下指令
 
@@ -51,7 +51,7 @@ sudo make install
 
 环境安装好以后，应该是这个样子的
 
-![include](/Users/lineworks/Desktop/屏幕快照 2019-08-15 下午2.07.56.png)
+![include](Resources/屏幕快照 2019-08-15 下午2.07.56.png)
 
 至此，环境安装完毕，接下来就是加入到工程了
 
@@ -73,7 +73,7 @@ sudo make install
 - libglfw3.a
 - libGLEW.a
 
-![库文件](/Users/lineworks/Desktop/屏幕快照 2019-08-15 下午2.16.40.png)
+![库文件](Resources/屏幕快照 2019-08-15 下午2.16.40.png)
 
 其中，libglfw3.a、libGLEW.a需要点击 add another，然后进入要路径/usr/local/lib中添加。
 
@@ -125,7 +125,7 @@ int main(void) {
 }
 ```
 
-见证奇迹的时刻到了，运行，你将会看到一个漂亮的三角形![](/Users/lineworks/Desktop/屏幕快照 2019-08-15 下午2.22.28.png)
+见证奇迹的时刻到了，运行，你将会看到一个漂亮的三角形![](Resources/屏幕快照 2019-08-15 下午2.22.28.png)
 
 mac 工程搭建，就说这么多了。
 
