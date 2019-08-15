@@ -1,4 +1,5 @@
-![222](Resources/屏幕快照 2019-08-15 下午1.45.07.png)
+![222](Resources/test.png)
+![111](test.png)
 # MAC OPEN GL 环境搭建
 
 ## 基础库介绍
